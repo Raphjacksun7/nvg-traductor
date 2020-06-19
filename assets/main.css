@@ -56,6 +56,11 @@
     margin-top: 0;
 }
 
+.ui.cards>.card>.content>p>i{
+    cursor: pointer; 
+    color: #2185d0;
+}
+
 .lang {
 	padding: 2px;
 }
