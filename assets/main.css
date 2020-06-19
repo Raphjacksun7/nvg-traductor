@@ -113,7 +113,7 @@ h2.ui.header {
 
 .slideshow {
     list-style-type: none;
-  }
+}
 
   .slide {
       top: 0; 
@@ -192,7 +192,6 @@ h2.ui.header {
       opacity: 1;
   }
 
-
   .content .form {
     background: white;
     z-index: 1;
@@ -205,6 +204,13 @@ h2.ui.header {
     width: 50%;
   }
 
+  .ui.grey {
+    margin-bottom: 5em;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 
 
   /* Back to top button  */
