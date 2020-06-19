@@ -247,8 +247,14 @@ h2.ui.header {
 
 /* Media query  */
 
-@media screen and (max-width: 1992px) {
-  
+@media screen and (max-width: 550px) {
+  .slide{
+      display: none;
   }
+  .content .form {
+      width: 100%;
+  }
+
+}
 
  
